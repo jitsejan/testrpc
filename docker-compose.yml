@@ -1,0 +1,6 @@
+version: '2'
+services:
+  web:
+    image: jitsejan/testrpc
+    ports:
+      - "8545:8545"
